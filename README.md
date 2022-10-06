@@ -1,4 +1,4 @@
-# I want to show pictures on an epaper device via MS Windows.
+# I want to show pictures on an epaper shelf label via MS Windows.
 
 ## We need to flash the cc2531 and the epaper device.
 
@@ -17,7 +17,8 @@
 
  * some wires, soldering tools, first aid box   
 
- * the universal wisdom tip: Get yourself a number of "Maxibriefkartons" 350 x 250 x 50 mm or 
+ * the universal wisdom tip:  
+   Get yourself a number of "Maxibriefkartons" 350 x 250 x 50 mm or 
    "Klappdeckelkarton" 200 x 150 x 100 mm. They are cheap and great for storing 
    your projects vertically.
 
