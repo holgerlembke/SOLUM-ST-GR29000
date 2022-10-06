@@ -1,13 +1,13 @@
-# I want to show pictures on an epaper device via a windows 10 pc.
+# I want to show pictures on an epaper device via MS Windows.
 
-## broad overview: we need to flash the cc2531 and the epaper device
+## We need to flash the cc2531 and the epaper device
 
-Target tools:
+### Target tools:
  * one cc2531 usb dongle
 
  * one SOLUM ST-GR29000 2,9" 128x296 pixel bwr (black-white-red)
 
-For flashing:
+### For flashing:
  * one or two (two is more convinient) esp8266 boards. I choosed the Wemos D1 Mini,
    because I have a ton of them.
 
@@ -27,7 +27,7 @@ board installed.
 
 Hint: All devices are 3.3 volt devices. So we need 3.3 v stuff to work with.
 
-Step 1: flash the cc2531
+### Step 1: flash the cc2531
 
 - get the TIMAC-Firmware for cc2531
 
