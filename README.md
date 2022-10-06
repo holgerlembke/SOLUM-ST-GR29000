@@ -1,24 +1,23 @@
 # I want to show pictures on an epaper device via MS Windows.
 
-## We need to flash the cc2531 and the epaper device
+## We need to flash the cc2531 and the epaper device.
 
-### Target tools:
+### Target hardware:
  * one cc2531 usb dongle
 
  * one SOLUM ST-GR29000 2,9" 128x296 pixel bwr (black-white-red)
 
 ### For flashing:
- * one or two (two is more convinient) esp8266 boards. I choosed the Wemos D1 Mini,
+ * one or two (two is more convinient) esp8266 boards. I chose the Wemos D1 Mini,
    because I have a ton of them.
 
- * some 2 mm 2 row female depont headers.
+ * some 2 mm 2 row female depont headers.  
    It works with single row headers and some bending. It works with direct soldering but is
    not nice at all.
 
  * some wires, soldering tools, first aid box   
 
-* the universal wisdom tip
-   Get yourself a number of "Maxibriefkartons" 350 x 250 x 50 mm or 
+ * the universal wisdom tip: Get yourself a number of "Maxibriefkartons" 350 x 250 x 50 mm or 
    "Klappdeckelkarton" 200 x 150 x 100 mm. They are cheap and great for storing 
    your projects vertically.
 
@@ -41,7 +40,7 @@ Hint: All devices are 3.3 volt devices. So we need 3.3 v stuff to work with.
 
   Objcopy is needed for that. I found one in my arduino avr folder.
 ```
-  arduino\avr 4.9.2\avr\bin\objcopy.exe" --gap-fill 0xFF --pad-to 0x040000 -I ihex MACcoP-cc2531.hex -O binary MACcoP-cc2531.bin
+  "..\arduino\avr 4.9.2\avr\bin\objcopy.exe" --gap-fill 0xFF --pad-to 0x040000 -I ihex MACcoP-cc2531.hex -O binary MACcoP-cc2531.bin
 ```
 
 - get the CCLoader
