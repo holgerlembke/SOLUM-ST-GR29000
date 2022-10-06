@@ -1,0 +1,1 @@
+..\Windows\CCLoader_x86_64.exe %1 MACcoP-cc2531.bin 0

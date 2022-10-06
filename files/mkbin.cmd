@@ -1,0 +1,1 @@
+ "C:\Users\lembk\Desktop\Arduino\altkrams\arduino-1.8.5\avr 4.9.2\avr\bin\objcopy.exe" --gap-fill 0xFF --pad-to 0x040000 -I ihex MACcoP-cc2531.hex -O binary MACcoP-cc2531.bin
